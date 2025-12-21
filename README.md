@@ -18,14 +18,6 @@ Stack Overflow is designed as a knowledge base rather than a support forum; ther
 - Transfer learning from pretrained models
 - Comprehensive evaluation metrics
 
-### Problem Statement
-
-Stack Overflow receives thousands of questions daily, but not all receive equal attention. This project aims to predict whether a question will be:
-- **Class 0**: Low popularity (<100 views)
-- **Class 1**: Medium-Low (100-500 views)  
-- **Class 2**: Medium-High (500-2K views)
-- **Class 3**: High popularity (>2K views)
-
 ### Future Work
 
 - [ ] Implement Focal Loss for better minority class performance
@@ -46,10 +38,6 @@ If you use this code in your research, please cite:
   url = {https://github.com/yourusername/stackoverflow-popularity-classifier}
 }
 ```
-
-### License
-
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
 ### Acknowledgments
 
