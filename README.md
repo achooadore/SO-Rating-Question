@@ -12,19 +12,6 @@
 
 Stack Overflow is designed as a knowledge base rather than a support forum; therefore, the community prioritizes concise, technical accuracy over friendly social interaction. Many users stumble at the first hurdle-namely, providing enough context as they fail to include a minimal reproducible example, leaving others to guess while trying to debug the code. Or just as bad, they describe the issue from their own perspective only, expecting the community to magically find the answer. Aimed at improving platform efficiency, this project classifies Stack Overflow questions into four popularity tiers using a fine-tuned MiniLM. The methodology specifically tackles severe class imbalance through weighted loss functions, resulting in a macro F1-score of 0.40. This 'automated critic' allows users to gauge their question's potential and make necessary adjustments before hitting 'Post', ensuring better engagement.
 
-**Key Features:**
-- BERT-based text classification (MiniLM)
-- Handles 27:1 class imbalance ratio
-- Transfer learning from pretrained models
-- Comprehensive evaluation metrics
-
-### Future Work
-
-- [ ] Implement Focal Loss for better minority class performance
-- [ ] Add temporal features (post date, trending topics)
-- [ ] Use CodeBERT for better code understanding
-- [ ] Ensemble multiple models
-- [ ] Deploy as web API
 
 ### Citation
 
