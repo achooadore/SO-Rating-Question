@@ -22,7 +22,7 @@ If you use this code in your research, please cite:
   title = {Stack Overflow Question Popularity Classification Using Fine-Tuned MiniLM},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/stackoverflow-popularity-classifier}
+  url = {https://github.com/achooadore/SO-Rating-Question}
 }
 ```
 
